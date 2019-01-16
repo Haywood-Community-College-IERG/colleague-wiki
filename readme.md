@@ -1,4 +1,4 @@
-# Data Warehouse Notes
+# Data Warehouse Notes 
 
 ## [APPLICATIONS](APPLICATIONS.md)
 

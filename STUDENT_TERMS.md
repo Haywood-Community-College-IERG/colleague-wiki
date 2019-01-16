@@ -1,4 +1,4 @@
-# STUDENT_TERMS
+# STUDENT_TERMS 
 
 ### Field: STTR.STATUS
 
