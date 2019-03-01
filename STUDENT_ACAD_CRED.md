@@ -1,11 +1,16 @@
-<!-- toc -->
+<!-- TOC -->
 
-- [STUDENT_ACAD_CRED](#STUDENT_ACAD_CRED)
-    + [Fields: STC.VERIFIED.GRADE, STC.FINAL.GRADE](#Fields-STCVERIFIEDGRADE-STCFINALGRADE)
-    + [Field: STC.STATUS](#Field-STCSTATUS)
+- [STUDENT_ACAD_CRED](#student_acad_cred)
+    - [Dictionary](#dictionary)
+    - [Fields: STC.VERIFIED.GRADE, STC.FINAL.GRADE](#fields-stcverifiedgrade-stcfinalgrade)
+    - [Field: STC.STATUS](#field-stcstatus)
+    - [Field: STC.SECTION.NO](#field-stcsectionno)
 
 <!-- tocstop -->
 # STUDENT_ACAD_CRED
+
+### Dictionary
+
 
 ### Fields: STC.VERIFIED.GRADE, STC.FINAL.GRADE 
 
@@ -73,3 +78,45 @@
 | XT   | External Transfer Equiv | (7)                                                                 |
 | PR   | Preliminary Equiv Eval  | (0)                                                                 |
  
+
+### Field: STC.SECTION.NO
+
+| Pattern | Examples      | Location        | Short-semester | Hybrid | High School           | Course Type       | Web-based | Night |
+|---------|---------------|-----------------|----------------|--------|-----------------------|-------------------|-----------|-------|
+| 0#      | 01 - 09       | Campus          |                |        |                       |                   |           |       |
+| 6#      | 61 - 66       | Campus          |                |        |                       | Lab               |           |       |
+| 9#      | 99            | Campus          |                |        |                       | Independent Study |           |       |
+| A#      | A1 - A3       | Campus          | TRUE           |        |                       |                   |           |       |
+| A6#     | A60 - A66     | Campus          | TRUE           |        |                       | Lab               |           |       |
+| C0#     | C01           | Central Haywood |                |        | Central Haywood       |                   |           |       |
+| C6#     | C60           | Central Haywood |                |        | Central Haywood       | Lab               |           |       |
+| CA#     | CA1           | Central Haywood | TRUE           |        | Central Haywood       |                   |           |       |
+| EM##    | EM01 - EM99   | Math Emporium   |                |        |                       |                   |           |       |
+| EMY##   | EMY01 - EMY99 | Math Emporium   |                | TRUE   |                       |                   |           |       |
+| H0#     | H01 - H03     | Campus          |                |        | Haywood Early College |                   |           |       |
+| HW#     | HW1           | Online          |                |        | Haywood Early College |                   | TRUE      |       |
+| IH##    | IH01 - IH99   | Information Hwy |                |        |                       |                   |           |       |
+| IN#     | IN1 - IN2     | Internet        |                |        |                       |                   |           |       |
+| INA#    | INA1 - INA3   | Internet        | TRUE           |        |                       |                   |           |       |
+| J##     | J01 - J99     | JobsNow         |                |        |                       |                   |           |       |
+| K##     | K01 - K99     | Cherokee        |                |        | Cherokee?             |                   |           |       |
+| N#      | N1 - N2       | Campus          |                |        |                       |                   |           | TRUE  |
+| N6#     | N60 - N61     | Campus          |                |        |                       | Lab               |           | TRUE  |
+| NA#     | NA1 - NA2     | Campus          | TRUE           |        |                       |                   |           | TRUE  |
+| NS#     | NS1 - NS2     | Self-Supporting |                |        |                       |                   |           | TRUE  |
+| NW#     | NW1           | Online          |                |        |                       |                   | TRUE      | TRUE  |
+| NWA#    | NWA1          | Online          | TRUE           |        |                       |                   | TRUE      | TRUE  |
+| P0#     | P01 - P02     | Pisgah          |                |        | Pisgah                |                   |           |       |
+| PA#     | PA1 - PA2     | Pisgah          | TRUE           |        | Pisgah                |                   |           |       |
+| PY#     | PY1 - PY2     | Pisgah          |                | TRUE   | Pisgah                |                   |           |       |
+| S#      | S1 - S2       | Self-Supporting |                |        |                       |                   |           |       |
+| T0#     | T01           | Campus          |                |        | Tuscola               |                   |           |       |
+| T6#     | T60           | Campus          |                |        | Tuscola               | Lab               |           |       |
+| TA#     | TA1           | Campus          | TRUE           |        | Tuscola               |                   |           |       |
+| TW#     | TW1           | Online          |                |        | Tuscola               |                   | TRUE      |       |
+| TWA#    | TWA1          | Online          | TRUE           |        | Tuscola               |                   | TRUE      |       |
+| TY#     | TY1           | Campus          |                | TRUE   | Tuscola               |                   |           |       |
+| WB      | WB            | Campus          |                |        |                       |                   |           |       |
+| W#      | W1 - W3       | Online          |                |        |                       |                   | TRUE      |       |
+| WA#     | WA1 - WA2     | Online          | TRUE           |        |                       |                   | TRUE      |       |
+| Y#      | Y1            | Campus          |                | TRUE   |
