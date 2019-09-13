@@ -1,16 +1,26 @@
-<!-- toc -->
+<!-- TOC -->
 
-- [STUDENTS](#STUDENTS)
+- [STUDENTS](#students)
+    - [Field: STU.TYPES](#field-stutypes)
+    - [Special college specific definitions](#special-college-specific-definitions)
+        - [Haywood CC](#haywood-cc)
 
-<!-- tocstop -->
+<!-- /TOC -->
+
 # STUDENTS
 
-### Field: STU.TYPES 
+## Field: STU.TYPES 
  
 | Code | Description                | Notes  |
 | ---- | -------------------------- | ------ |
-| CCPP | Career and College Promise |  *     |
+| CCPP | Career and College Promise | \*HCC  |
  
+## Special college specific definitions
+
+### Haywood CC
+<details>
+<summary>Special definitions for Haywood Community College</summary>
+
 \* This can be used to identify CCP and EC students. Must
    use ACAD.PROGRAMS and INSTITUTIONS.ATTEND as follows:
 
@@ -22,4 +32,5 @@
     * If student is NOT active in the early college, then assign as CCP
 * If student is not in CCP or EC program nor do they have a STU.TYPE == 'CCPP' then 
   assign them as Non-CCP.
+</details>
 
