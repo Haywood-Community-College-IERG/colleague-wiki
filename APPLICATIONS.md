@@ -1,6 +1,14 @@
+<!-- TOC -->
+
+- [APPLICATIONS](#applications)
+    - [Field: APPL.STATUS](#field-applstatus)
+    - [Special college specific definitions](#special-college-specific-definitions)
+        - [Haywood CC](#haywood-cc)
+
+<!-- /TOC -->
 # APPLICATIONS
 
-### Field: APPL.STATUS
+## Field: APPL.STATUS
 
 | Code | Description          | Notes        | Special Processing Code |
 | ---- | -------------------- | ------------ | ----------------------- |
@@ -19,6 +27,9 @@
 | WI   | Withdrawn            |              |                         |
 | WL   | Waitlisted           |              |                         |
 
+## Special college specific definitions
+
+### Haywood CC
 <details>
 <summary>Notes for Haywood Community College:</summary>
 

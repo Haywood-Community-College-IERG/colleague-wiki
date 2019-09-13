@@ -5,6 +5,7 @@
     - [Fields: STC.VERIFIED.GRADE, STC.FINAL.GRADE](#fields-stcverifiedgrade-stcfinalgrade)
     - [Field: STC.STATUS](#field-stcstatus)
     - [Special college specific definitions](#special-college-specific-definitions)
+        - [Haywood CC](#haywood-cc)
         - [Field: STC.SECTION.NO (Haywood CC)](#field-stcsectionno-haywood-cc)
 
 <!-- /TOC -->
@@ -12,7 +13,6 @@
 # STUDENT_ACAD_CRED
 
 ## Dictionary
-
 
 ## Fields: STC.VERIFIED.GRADE, STC.FINAL.GRADE 
 
@@ -80,9 +80,9 @@
 | XT   | External Transfer Equiv | (7)                                                                 |
 | PR   | Preliminary Equiv Eval  | (0)                                                                 |
  
-
 ## Special college specific definitions
 
+### Haywood CC
 <details>
 <summary>Special definitions for Haywood Community College</summary>
 
