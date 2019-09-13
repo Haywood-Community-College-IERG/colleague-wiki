@@ -19,7 +19,9 @@
 | WI   | Withdrawn            |              |                         |
 | WL   | Waitlisted           |              |                         |
 
-Notes:
+<details>
+<summary>Notes for Haywood Community College:</summary>
+
 - Special Credit imported from CFNC straight to AD
 - AP - First time in system (Admissions checks CFNC for any errors)
 - After AP, change to MS
@@ -27,3 +29,4 @@ Notes:
 - After MS, should be changed to PR or AD
 - PR is for Nursing until transcript (allows student to register)
 - After PR, change to AD
+</details>
