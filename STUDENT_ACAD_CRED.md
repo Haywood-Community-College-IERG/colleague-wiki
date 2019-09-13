@@ -4,7 +4,8 @@
     - [Dictionary](#dictionary)
     - [Fields: STC.VERIFIED.GRADE, STC.FINAL.GRADE](#fields-stcverifiedgrade-stcfinalgrade)
     - [Field: STC.STATUS](#field-stcstatus)
-    - [Field: STC.SECTION.NO](#field-stcsectionno)
+    - [Special college specific definitions](#special-college-specific-definitions)
+        - [Field: STC.SECTION.NO](#field-stcsectionno)
 
 <!-- tocstop -->
 # STUDENT_ACAD_CRED
@@ -79,10 +80,12 @@
 | PR   | Preliminary Equiv Eval  | (0)                                                                 |
  
 
+### Special college specific definitions
+
 <details>
 <summary>Special definitions for Haywood Community College</summary>
 
-### Field: STC.SECTION.NO
+#### Field: STC.SECTION.NO
 
 | Pattern | Examples      | Location        | Short-semester | Hybrid | High School           | Course Type       | Web-based | Night |
 |---------|---------------|-----------------|----------------|--------|-----------------------|-------------------|-----------|-------|
