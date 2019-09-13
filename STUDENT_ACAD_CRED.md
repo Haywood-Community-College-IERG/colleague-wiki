@@ -5,7 +5,7 @@
     - [Fields: STC.VERIFIED.GRADE, STC.FINAL.GRADE](#fields-stcverifiedgrade-stcfinalgrade)
     - [Field: STC.STATUS](#field-stcstatus)
     - [Special college specific definitions](#special-college-specific-definitions)
-        - [Field: STC.SECTION.NO](#field-stcsectionno)
+        - [Field: STC.SECTION.NO](#field-stcsectionno-haywoodcc)
 
 <!-- tocstop -->
 # STUDENT_ACAD_CRED
@@ -85,7 +85,7 @@
 <details>
 <summary>Special definitions for Haywood Community College</summary>
 
-#### Field: STC.SECTION.NO
+#### Field: STC.SECTION.NO (Haywood CC)
 
 | Pattern | Examples      | Location        | Short-semester | Hybrid | High School           | Course Type       | Web-based | Night |
 |---------|---------------|-----------------|----------------|--------|-----------------------|-------------------|-----------|-------|
