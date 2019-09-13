@@ -1,20 +1,20 @@
 <!-- TOC -->
 
 - [STUDENTACADCRED](#studentacadcred)
-        - [Dictionary](#dictionary)
-        - [Fields: STC.VERIFIED.GRADE, STC.FINAL.GRADE](#fields-stcverifiedgrade-stcfinalgrade)
-        - [Field: STC.STATUS](#field-stcstatus)
-        - [Special college specific definitions](#special-college-specific-definitions)
-            - [Field: STC.SECTION.NO (Haywood CC)](#field-stcsectionno-haywood-cc)
+    - [Dictionary](#dictionary)
+    - [Fields: STC.VERIFIED.GRADE, STC.FINAL.GRADE](#fields-stcverifiedgrade-stcfinalgrade)
+    - [Field: STC.STATUS](#field-stcstatus)
+    - [Special college specific definitions](#special-college-specific-definitions)
+        - [Field: STC.SECTION.NO (Haywood CC)](#field-stcsectionno-haywood-cc)
 
 <!-- /TOC -->
 
 # STUDENT_ACAD_CRED
 
-### Dictionary
+## Dictionary
 
 
-### Fields: STC.VERIFIED.GRADE, STC.FINAL.GRADE 
+## Fields: STC.VERIFIED.GRADE, STC.FINAL.GRADE 
 
 | Code | Description | Notes                     | Grade Scheme |
 | ---- | ----------- | ------------------------- | ------------ |
@@ -63,7 +63,7 @@
 | 24   | S           | Satisfactory              | BSP          |
 
 
-### Field: STC.STATUS 
+## Field: STC.STATUS 
  
 | Code | Description             | Notes                                                               |
 | ---- | ----------------------- | ------------------------------------------------------------------- |
@@ -81,12 +81,12 @@
 | PR   | Preliminary Equiv Eval  | (0)                                                                 |
  
 
-### Special college specific definitions
+## Special college specific definitions
 
 <details>
 <summary>Special definitions for Haywood Community College</summary>
 
-#### Field: STC.SECTION.NO (Haywood CC)
+### Field: STC.SECTION.NO (Haywood CC)
 
 | Pattern | Examples      | Location        | Short-semester | Hybrid | High School           | Course Type       | Web-based | Night |
 |---------|---------------|-----------------|----------------|--------|-----------------------|-------------------|-----------|-------|
