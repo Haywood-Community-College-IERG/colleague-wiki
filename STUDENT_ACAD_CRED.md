@@ -1,15 +1,14 @@
 <!-- TOC -->
 
-- [STUDENT_ACAD_CRED](#student_acad_cred)
-    - [Dictionary](#dictionary)
-    - [Fields: STC.VERIFIED.GRADE, STC.FINAL.GRADE](#fields-stcverifiedgrade-stcfinalgrade)
-    - [Field: STC.STATUS](#field-stcstatus)
-    - [Special college specific definitions](#special-college-specific-definitions)
-        - [Field: STC.SECTION.NO (Haywood CC)](#field-stcsectionno-haywood-cc)
+- [STUDENTACADCRED](#studentacadcred)
+        - [Dictionary](#dictionary)
+        - [Fields: STC.VERIFIED.GRADE, STC.FINAL.GRADE](#fields-stcverifiedgrade-stcfinalgrade)
+        - [Field: STC.STATUS](#field-stcstatus)
+        - [Special college specific definitions](#special-college-specific-definitions)
+            - [Field: STC.SECTION.NO (Haywood CC)](#field-stcsectionno-haywood-cc)
 
-<!-- tocstop -->
+<!-- /TOC -->
 
-<!-- TOC -->autoauto- [STUDENT_ACAD_CRED](#student_acad_cred)auto        - [Dictionary](#dictionary)auto        - [Fields: STC.VERIFIED.GRADE, STC.FINAL.GRADE](#fields-stcverifiedgrade-stcfinalgrade)auto        - [Field: STC.STATUS](#field-stcstatus)auto        - [Special college specific definitions](#special-college-specific-definitions)auto            - [Field: STC.SECTION.NO (Haywood CC)](#field-stcsectionno-haywood-cc)autoauto<!-- /TOC -->
 # STUDENT_ACAD_CRED
 
 ### Dictionary
