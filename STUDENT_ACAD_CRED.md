@@ -68,7 +68,7 @@
 | N    | New                     | (1)                                                                 |
 | A    | Add                     | (2)                                                                 |
 | W    | Withdrawn               | (4) Class is dropped after census or 10% mark                       |
-| C    | Cancelled               | (6) Class is cancelled by HCC                                       |
+| C    | Cancelled               | (6) Class is cancelled                                              |
 | NS   | No Show                 | (3)                                                                 |
 | NP   | Non-Payment             | (5)                                                                 |
 | X    | Deleted                 | (5) Class is dropped before start date                              |
@@ -78,6 +78,9 @@
 | XT   | External Transfer Equiv | (7)                                                                 |
 | PR   | Preliminary Equiv Eval  | (0)                                                                 |
  
+
+<details>
+<summary>Special definitions for Haywood Community College</summary>
 
 ### Field: STC.SECTION.NO
 
@@ -119,4 +122,7 @@
 | WB      | WB            | Campus          |                |        |                       |                   |           |       |
 | W#      | W1 - W3       | Online          |                |        |                       |                   | TRUE      |       |
 | WA#     | WA1 - WA2     | Online          | TRUE           |        |                       |                   | TRUE      |       |
-| Y#      | Y1            | Campus          |                | TRUE   |
+| Y#      | Y1            | Campus          |                | TRUE   |                       |                   |           |       |
+
+</details>
+
