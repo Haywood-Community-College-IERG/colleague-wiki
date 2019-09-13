@@ -6,7 +6,7 @@
     - [Field: STC.STATUS](#field-stcstatus)
     - [Special college specific definitions](#special-college-specific-definitions)
         - [Haywood CC](#haywood-cc)
-        - [Field: STC.SECTION.NO (Haywood CC)](#field-stcsectionno-haywood-cc)
+            - [Field: STC.SECTION.NO (Haywood CC)](#field-stcsectionno-haywood-cc)
 
 <!-- /TOC -->
 
@@ -86,7 +86,7 @@
 <details>
 <summary>Special definitions for Haywood Community College</summary>
 
-### Field: STC.SECTION.NO (Haywood CC)
+#### Field: STC.SECTION.NO (Haywood CC)
 
 | Pattern | Examples      | Location        | Short-semester | Hybrid | High School           | Course Type       | Web-based | Night |
 |---------|---------------|-----------------|----------------|--------|-----------------------|-------------------|-----------|-------|
